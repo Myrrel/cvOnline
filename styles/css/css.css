@@ -135,7 +135,8 @@ h2{
 }
 
 .img-responsive {
-    margin: 0 auto;
+	margin: 0 auto;
+	float: 	left;
 }
 
 .panel-derecho{
@@ -182,8 +183,6 @@ footer{
   bottom: 0;
 }
 
-
-
 .thumbnail {
   position: relative;
   -ms-zoom: 0.25;
@@ -205,4 +204,17 @@ footer{
 
 .fijo{
 	position: fixed;
+}
+
+#boton {
+
+  float: left;
+  position: absolute;
+	top: 160px;
+	left: 150px;
+}
+
+.btn-violeta{
+	background-color:#9A50BD ;
+	color: #fff;
 }
