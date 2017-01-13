@@ -2,7 +2,6 @@ body{
 	font-size: 16px;
 	background-color: #fff;
 }
-
 .jumbotron {
     position: relative; 
     background: #000 url(../img/imagesB.jpg) center center / cover no-repeat;
@@ -111,9 +110,27 @@ footer{
   color: #fff; 
   height: 100%;
   padding-top: 30px;
-	padding-bottom: 30px;
+  padding-bottom: 30px;
   font-size: 1.2em;
   font-weight: 300px;
 }
+
+.btn-color {
+	background-color:rgba(34, 64, 89, 0.85);
+	color: white;
+	
+}
+
+.btn-color:hover {
+	background-color: #224059;
+	color: #fff;
+}
+
+
+footer a {
+	color: #fff;
+}
+
+
 
 
