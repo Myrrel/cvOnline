@@ -65,11 +65,11 @@ function init() {
 	container.appendChild( renderer.domElement );
 
 	
-	
+	var info =document.getElementById("info");
 
-	document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+	info.addEventListener( 'mousemove', onDocumentMouseMove, false );
 	//document.addEventListener( 'touchstart', onDocumentTouchStart, false );
-	document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+	info.addEventListener( 'touchmove', onDocumentTouchMove, false );
 
 	//
 
